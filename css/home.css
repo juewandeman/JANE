@@ -1,0 +1,100 @@
+body{
+	font-family: "微软雅黑";
+}
+header,.concent,.arrival{
+	width: 1170px;
+    margin: 0 auto;
+}
+header .logo{
+    margin-top: 21px;
+    float: left;
+}
+header ul{
+    width: 550px;
+    float: right;
+    margin-bottom: 38px;
+}
+header ul li{
+	width: 110px;
+	color: #333333;
+	font-size: 18px;
+	height: 32px;
+	line-height: 32px;
+	margin-top: 37px;
+	float: left;
+	text-align: center;
+	letter-spacing: 4px;
+	cursor:pointer; 
+}
+header ul li:hover{
+    color:#FFFEFF;
+    background: #c2c6e1;
+}
+#banner{
+	overflow: hidden;
+	cursor: pointer;
+}
+
+footer{
+	width: 100%;
+	background: #000;
+}
+.footer-box{
+	width: 1170px;
+	margin: 0 auto;
+}
+.footer-box h5{
+	font-size: 16px;
+	color: #FFFEFF;
+	line-height: 75px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	padding-bottom: 3px;
+	margin-bottom:3px ;
+	border-bottom: 1px solid #333333;
+	position: relative;
+}
+.footer-box h5:before{
+	display: block;
+	content: '';
+	width: 425px;
+	border-top: 1px solid #fefefe;
+	position: absolute;
+	top: 51px;
+}
+.footer-nav{
+	padding-bottom: 22px;
+	border-bottom: 1px solid #333333;
+}
+.footer-nav>li{
+	width: 20%;
+	float: left;
+	font-size: 14px;
+	color: #FEFEFE;
+	line-height: 27px;
+}
+.footer-nav>li>p{
+	line-height: 67px;
+}
+.footer-nav>li input{
+	height: 32px;
+	line-height: 32px;
+	width: 100%;
+	color: #666666;
+	border-color:#666666 ;
+	background: transparent;
+	text-indent: 20px;
+	outline: none;
+	margin-top: 10px;
+}
+.footer-nav>li>ul>li:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.bh{
+	height: 92px;
+	line-height: 92px;
+	font-size: 14px;
+	color: #888888;
+	text-align: center;
+}
